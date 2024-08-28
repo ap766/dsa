@@ -1,0 +1,1 @@
+#Use hash map for the same thing but the tc will O(2N) and also SC will be O(N) 

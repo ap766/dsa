@@ -1,0 +1,1 @@
+#Time complexity is O(N) and SC is O(N) for both.So we need to imporve the SC

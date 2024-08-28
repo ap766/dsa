@@ -1,0 +1,14 @@
+#Also just one thing to remember we take stack when we wanna store it and then print in revers
+#LEARNED SOMETHING VERY IMPORTANT THAT IN A FOR LOOP OF PYTHON YOU CANT MANIPYLATE THE I
+
+
+
+#DOUBTS
+#1)IN TREES THERE'S ALWAYS SOME KIND OF TRAVERSAL HAPPENING 
+#2)IN BOUNDARY TRAVERSAL OF TREES WHY CANT WE DO LEVEL ORDER TRAVERSAL.
+
+
+#linkedlist tips
+#1)That dummy node thing  - we did it in the merge(3) and add (5) cus it  helpe
+
+#2)SLow fast - 1)middle 2)delete from behind. 3)detct cycle. 4)palindromeb 5)LENGTH OF LL.

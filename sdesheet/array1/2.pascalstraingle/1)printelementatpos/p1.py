@@ -1,0 +1,1 @@
+#generate whole thing and then - O(N2)
