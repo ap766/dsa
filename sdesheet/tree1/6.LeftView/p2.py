@@ -12,6 +12,7 @@
 #3)Basically we have a ds we keep comparising size and adding if its reached a size means it has a element aleady in it
    
 #Function to return a list containing elements of left view of the binary tree.
+
 def LeftView(root):
     ds=[]
     def recur(node,level):

@@ -9,6 +9,25 @@
 
 #User function Template for python3
 
+
+
+#INTUITON/APPROACH
+
+##since node to neighboruing and the noeighbouring to neighbouring and once it reaches end it bakcetracks and if that previous has neighbours it goes to its neighbours.
+#SO we are moving from one node to its neighbouring node for th whole thing so we can think of recursion
+#And obiously we need to keep a vis array to make sure nothing is visted twice.
+
+#COMPLEXITY 
+##Space Complexity -> So its o(n)+o(n)+o(n). For the  ans+visited Array + recursion stack space.
+
+##So the function is always called for a node and for any node it will just be called once  
+##ALso for every node it traverses the number of neighbours.(which is equal to the degree of the node)
+### So Sum of Degree = 2x(No of Edges).
+### O(N) - Cus for every node we are calling the recursion once
+#### so O(2xE)+O(N) - UNIDIRECTED RAPH
+#### For Directed i think O(E)+O(N)
+
+
 class Solution:
     
     def dfs(self,node,vis,adj,ls):
@@ -28,3 +47,4 @@ class Solution:
         self.dfs(start,vis,adj,ls)
         return ls
        
+

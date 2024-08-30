@@ -1,17 +1,24 @@
+#Traversing and finding the list and again straverse to find the middle element - no specifc approach its just brute force
+
+
 #Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
          self.val = val
          self.next = next
+
+
     def middleNode(self, head):
         n = 0
         temp = head
         while temp:
             n += 1
             temp = temp.next
+
         temp = head
         for i in range(n // 2):
             temp = temp.next
+
         print(temp)
         return temp
     
