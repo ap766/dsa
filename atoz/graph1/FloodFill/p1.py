@@ -1,3 +1,4 @@
+from collections import deque
 class Solution:
     def bfs(self,image,sr,sc,color):
         q=collections.deque()

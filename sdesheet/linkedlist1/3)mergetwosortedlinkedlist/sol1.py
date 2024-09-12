@@ -1,3 +1,8 @@
+#1)Just iterate thru linked lists and store in an array
+#2)And then sort it
+#3)So we want the head of the combined linked list , so rn we have an array we'll convert to ll
+
+
 # # Definition for singly-linked list.
 # Definition for singly-linked list.
 class ListNode:
@@ -42,3 +47,10 @@ class Solution:
         
         head = self.convert_array_to_listedlist(arr)
         return head
+    
+
+# Time Complexity: O(N1 + N2) + O(N log N) + O(N) where N1 is the number of linked list nodes in the first list and N2 is the number of linked list nodes in the second list and N is the total number of nodes (N1+N2). Traversing both lists into the array owes O(N1 + N2), sorting the array takes O((N1+N2)*log(N1+N2)) and then traversing the sorted array and creating a list gives us another O(N1+N2).
+
+# Space Complexity : O(N)+O(N) where N is the total number of nodes from both lists, N1 + N2. O(N) to store all the nodes of both the lists in an external array and another O(N) to create a new combined list.Time Complexity: O(N1 + N2) + O(N log N) + O(N) where N1 is the number of linked list nodes in the first list and N2 is the number of linked list nodes in the second list and N is the total number of nodes (N1+N2). Traversing both lists into the array owes O(N1 + N2), sorting the array takes O((N1+N2)*log(N1+N2)) and then traversing the sorted array and creating a list gives us another O(N1+N2).
+
+# Space Complexity : O(N)+O(N) where N is the total number of nodes from both lists, N1 + N2. O(N) to store all the nodes of both the lists in an external array and another O(N) to create a new combined list.

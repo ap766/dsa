@@ -3,7 +3,11 @@
 # maintain a minimum from the start of the array and compare 
 # it with every element of the array, if it is greater than the 
 # minimum then take the difference and maintain it in max, otherwise
-#  update the minimum.
+#  update the minimum at every STAGE
+
+
+#Approach
+#Minimum cant be zero 
 
 
 class Solution:

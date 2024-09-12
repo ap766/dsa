@@ -25,8 +25,8 @@ class Solution:
             
             node = ListNode(sum % 10)
             
-            temp.next = node
-            temp = temp.next
+            temp.next = node#add link
+            temp = temp.next#move 
         
         return dummynode.next
     

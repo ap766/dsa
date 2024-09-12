@@ -1,7 +1,7 @@
 class Solution:
     def subarraySum(self, nums, k: int) -> int:
         h = {}
-        h[0] = 1
+        h[0] = 1 #So this is for the stuff thats from the start of Array .
         sum = 0
         cnt = 0
         for i in range(len(nums)):

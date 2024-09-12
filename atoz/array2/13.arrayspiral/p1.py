@@ -4,7 +4,7 @@
 #Every Layer in this fashion
 
 #The row numbers 
-#We can say top most is0 - starting row index
+#We can say top most is 0 - starting row index
 #THen bottom is 5 - ending row index
 #left is 0 - starting column index
 #right is 5 - ending column index
@@ -44,9 +44,6 @@ class Solution:
           
             for i in range(left,right+1):
                 ans.append(matrix[top][i])
-         
-            
-            values=[]
             top+=1
             for j in range(top,bottom+1):
                ans.append(matrix[j][right])

@@ -1,5 +1,7 @@
 #So we cant delete its address .
 #Its more like we are replacing the value
+#Also our logic works cus the node to be deleted is never the last node.
+
 
 # Definition for singly-linked list.
 # class ListNode:

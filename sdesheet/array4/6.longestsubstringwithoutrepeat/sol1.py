@@ -1,3 +1,7 @@
+#Time complexity is O(N2)
+#Space complexity is O(N)
+
+
 def solve(str: str) -> int:
     if len(str) == 0:
         return 0
