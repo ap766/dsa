@@ -1,3 +1,5 @@
+
+#2 pointers 
 class Solution:
     def findContentChildren(self, g, s) -> int:
         g.sort()
