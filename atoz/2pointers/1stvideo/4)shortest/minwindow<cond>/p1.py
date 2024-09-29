@@ -1,0 +1,1 @@
+#shortest shrinked window 
