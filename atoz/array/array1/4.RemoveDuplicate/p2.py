@@ -72,6 +72,7 @@ class Solution:
 
 
 
+#2 pointers
 #i says You can take the space in front of me and i will pt to you.
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:

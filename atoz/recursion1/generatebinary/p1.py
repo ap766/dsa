@@ -17,3 +17,6 @@ class Solution:
         recur("", "")
         return ans
         
+n=3
+sol = Solution()
+print(sol.validStrings(3))
